@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RatingSummary">
+        <attr name="star5SummaryColor" format="color" />
+        <attr name="star4SummaryColor" format="color" />
+        <attr name="star3SummaryColor" format="color" />
+        <attr name="star2SummaryColor" format="color" />
+        <attr name="star1SummaryColor" format="color" />
+        <attr name="starsDefaultSummaryColor" format="color" />
+
+        <attr name="star5SummaryCountColor" format="color"/>
+        <attr name="star4SummaryCountColor" format="color"/>
+        <attr name="star3SummaryCountColor" format="color"/>
+        <attr name="star2SummaryCountColor" format="color"/>
+        <attr name="star1SummaryCountColor" format="color"/>
+        <attr name="starsSummaryCountDefaultColor" format="color"/>
+
+        <attr name="star5SummaryCountZeroValueColor" format="color"/>
+        <attr name="star4SummaryCountZeroValueColor" format="color"/>
+        <attr name="star3SummaryCountZeroValueColor" format="color"/>
+        <attr name="star2SummaryCountZeroValueColor" format="color"/>
+        <attr name="star1SummaryCountZeroValueColor" format="color"/>
+        <attr name="starsSummaryCountZeroValueDefaultColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>

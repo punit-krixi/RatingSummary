@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.krixi.summary.MainActivity">
+
+    <com.krixi.ratingsummary.RatingSummary
+        android:id="@+id/summaryContainer"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+
+        custom:star1SummaryColor="@color/red_rating"
+        custom:star2SummaryColor="@color/orange_rating"
+        custom:star3SummaryColor="@color/green_rating"
+        custom:star4SummaryColor="@color/green_rating"
+        custom:star5SummaryColor="@color/green_rating"
+
+        custom:starsSummaryCountDefaultColor="@color/white"
+        custom:starsSummaryCountZeroValueDefaultColor="@color/black"
+
+        custom:star1SummaryCountColor="@color/white"
+        custom:star2SummaryCountColor="@color/white"
+        custom:star3SummaryCountColor="@color/white"
+        custom:star4SummaryCountColor="@color/white"
+        custom:star5SummaryCountColor="@color/white"
+
+        custom:star1SummaryCountZeroValueColor="@color/black"
+        custom:star2SummaryCountZeroValueColor="@color/black"
+        custom:star3SummaryCountZeroValueColor="@color/black"
+        custom:star4SummaryCountZeroValueColor="@color/black"
+        custom:star5SummaryCountZeroValueColor="@color/black"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </com.krixi.ratingsummary.RatingSummary>
+
+
+
+</RelativeLayout>
