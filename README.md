@@ -15,7 +15,7 @@ Refer the library in an Android application project in the app/build.gradle as f
 
 ```bash
 dependencies {
-    compile 'com.krixi.ratingsummary:RatingSummary:1.0.0'
+    compile 'com.krixi.ratingsummary:RatingSummary:1.0.1'
 }
 ```
 
