@@ -1,27 +1,9 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'RatingSummary'
-    bintrayName = 'RatingSummary'
-
-    publishedGroupId = 'com.krixi.ratingsummary'
-    libraryName = 'RatingSummary'
-    artifact = 'RatingSummary'
-
-    libraryDescription = 'A rating summary similar to play store.'
-
-    siteUrl = 'https://github.com/punit-krixi/RatingSummary'
-    gitUrl = 'https://github.com/punit-krixi/RatingSummary.git'
-
-    libraryVersion = '1.0.0'
-
-    developerId = 'punit-krixi'
-    developerName = 'Punit Vajpeyi'
-    developerEmail = 'punit.vajpeyi@krixi.in'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    PUBLISH_GROUP_ID = 'com.krixi.ratingsummary'
+    PUBLISH_ARTIFACT_ID = 'ratingsummary'
+    PUBLISH_VERSION = '1.0.1'
 }
 
 android {
@@ -29,7 +11,7 @@ android {
     buildToolsVersion "26.0.1"
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -55,7 +37,4 @@ dependencies {
 }
 
 
-//Add these lines to publish library to bintray
-//Place it at the end of the file
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
